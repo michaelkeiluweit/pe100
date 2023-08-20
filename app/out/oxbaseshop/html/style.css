@@ -1,0 +1,593 @@
+A        {
+        font-size: 9pt;
+        text-decoration: none;
+        color: black;
+        }
+
+A:Hover     {
+        text-decoration: underline;
+        color: #AB0101;
+        }
+
+body    {
+    margin-bottom : 0;
+    margin-left : 0;
+    margin-right : 0;
+    margin-top : 0;
+    background-color: #FFFFFF;
+}
+
+.pagehead {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000000;
+	font-weight: normal;
+	background-color: #494949;
+	height : 50;
+	vertical-align : bottom;
+}
+
+.pageheadlink {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #F7F7F7;
+	font-weight: normal;
+}
+
+.pagebottom {
+        font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+        font-size: 9px;
+        color: #000000;
+        font-weight: normal;
+	    height : 13;
+    	vertical-align : top;
+}
+
+.leftitem {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000000;
+	font-weight: normal;
+	background-color: #E9E9E9;
+	width : 150;
+	vertical-align : top;
+	border : 1px Black;
+	border-style : solid solid solid none;
+}
+
+.lefthightlightitem {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000000;
+	font-weight: bold;
+	background-color: #CECDCD;
+	border : 1px Black;
+	border-style : none none solid none;
+	height : 18px;
+}
+
+.leftinternitem {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000000;
+	font-weight: normal;
+	background-color: #E9E9E9;
+}
+
+.defaultcontent {
+        font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        color: #000000;
+        font-weight: normal;
+    	vertical-align : top;
+}
+
+.defaultcontenthigh {
+        font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        color: #AB0101;
+        font-weight: normal;
+    	vertical-align : top;
+}
+
+.detailcontent {
+        font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        color: #000000;
+        font-weight: normal;
+    	vertical-align : top;
+		padding-left: 10px;
+}
+
+.detailproductlink {
+        font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+        font-size: 9px;
+        color: #9D0101;
+        font-weight: bold;
+}
+
+.detailheader {
+        font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+        font-size: 11px;
+        color: #9D0101;
+        font-weight: bold;
+}
+
+.detailsales {
+        font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        color: #000000;
+        font-weight: bold;
+		background-color: #CECDCD;
+}
+
+.rootcategory {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000000;
+	font-weight: bold;
+	background-color: #CECDCD;
+	border : 1px Black;
+	border-style : solid none none none;
+	height : 18px;
+}
+
+.rootcategorylink {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000000;
+	font-weight: bold;
+	background-color: #CECDCD;
+}
+
+.rootcategory_exp {
+        font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        color: #8D0101;
+        font-weight: bold;
+}
+
+.subcategory {
+        font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        color: #000000;
+        font-weight: normal;
+}
+
+.search {
+        font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        color: #8D0101;
+        font-weight: bold;
+}
+
+.searchpagenavigation {
+        font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        color: #000000;
+        font-weight: bold;
+    	vertical-align : top;
+}
+
+.language {
+        font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        color: #000000;
+        font-weight: bold;
+}
+
+.language_activ {
+        font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        color: #8D0101;
+        font-weight: bold;
+}
+
+.currency {
+        font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+        font-size: 9px;
+        color: #000000;
+        font-weight: bold;
+}
+
+.currency_activ {
+        font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+        font-size: 9px;
+        color: #8D0101;
+        font-weight: bold;
+}
+
+.aktionhead {
+        font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        color: #FFFFFF;
+        font-weight: bold;
+		background-color: #767575;
+}
+
+.aktionmain {
+        font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        color: #000000;
+        font-weight: normal;
+		border : 3px #767575;
+		border-style : none solid solid solid;
+		padding-left : 2px;
+		padding-top : 5px;
+		padding-bottom : 5px;
+		padding-right : 2px;
+}
+
+.aktion {
+        font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        color: #000000;
+        font-weight: normal;
+}
+
+.aktionhighlight {
+        font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        color: #AB0101;
+        font-weight: bold;
+}
+
+.startpageFirstProductTitle {
+        font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        color: #AB0101;
+        font-weight: bold;
+}
+
+.startpageFirstProductText {
+        font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        color: #242424;
+        font-weight: normal;
+}
+
+.startpageFirstProductPrice {
+        font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+        font-size: 17px;
+        color: #AB0101;
+        font-weight: bold;
+}
+
+.startpageFirstProductOldPrice {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 17px;
+	color: #AB0101;
+	font-weight: bold;
+	text-decoration : line-through;
+}
+
+.startpageProductTitle {
+        font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        color: #242424;
+        font-weight: bold;
+}
+
+.startpageProductText {
+        font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        color: #AB0101;
+        font-weight: normal;
+}
+
+.startpageBoxContent {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000000;
+	font-weight: normal;
+	border : 3px #CECDCD;
+	border-style : none solid solid solid;
+	padding-left : 5px;
+	padding-top : 5px;
+	padding-bottom : 5px;
+	padding-right : 5px;
+}
+
+.startpageBoxHead {
+        font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        color: #000000;
+        font-weight: bold;
+		background-color: #CECDCD;
+}
+
+.newestProductHead {
+        font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        color: #8D0101;
+        font-weight: bold;
+}
+
+
+.newestProduct {
+        font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        color: #000000;
+        font-weight: normal;
+}
+
+.details_catpath {
+        font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        color: #000000;
+        font-weight: bold;
+}
+
+.list_catpath {
+        font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        color: #000000;
+        font-weight: bold;
+		background-color: #CECCCD;
+}
+
+.list_catdesc {
+        font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        color: #000000;
+        font-weight: normal;
+		background-color: #CECCCD;
+}
+
+.pagenavigation {
+        font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+        font-size: 9px;
+        color: #000000;
+        font-weight: normal;
+}
+
+.searchitem {
+        font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+        font-size: 9px;
+        color: #000000;
+        font-weight: normal;
+}
+
+.searchitemhighlight {
+        font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+        font-size: 9px;
+        color: #8D0101;
+        font-weight: normal;
+}
+
+.producthead {
+        font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+        font-size: 11px;
+        color: #000000;
+        font-weight: bold;
+}
+
+.producttext {
+        font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+        font-size: 11px;
+        color: #000000;
+        font-weight: normal;
+}
+
+.productgreytext {
+        font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        color: #464646;
+        font-weight: normal;
+}
+
+.productreviewhead {
+        font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        color: #8D0101;
+        font-weight: normal;
+}
+
+.productreviewtext {
+        font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        color: #000000;
+        font-weight: normal;
+}
+
+.producthighlight {
+        font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+        font-size: 11px;
+        color: #AB0101;
+        font-weight: normal;
+}
+
+.login {
+        font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+        font-size: 9px;
+        color: #000000;
+        font-weight: normal;
+}
+
+.basketlisthead {
+        font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        color: #FFFFFF;
+        background-color: #494949;
+        font-weight: bold;
+}
+
+.basketlist {
+        font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+        font-size: 9px;
+        color: #000000;
+        font-weight: normal;
+}
+
+.basketsum {
+        font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        color: #000000;
+        font-weight: normal;
+}
+
+.paymentleft {
+        font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        color: #8D0101;
+        font-weight: bold;
+		border : 1px #494949;
+		border-style : none none solid solid;
+		padding-top : 5px;
+		padding-bottom : 5px;
+}
+
+.paymentmiddle {
+        font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        color: #8D0101;
+        font-weight: bold;
+		border : 1px #494949;
+		border-style : none none solid none;
+}
+
+.paymenthighlight {
+        font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        color: #8D0101;
+        font-weight: bold;
+}
+
+.paymentright {
+        font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        color: #000000;
+        font-weight: normal;
+		border : 1px #494949;
+		border-style : none solid solid none;
+		padding-top : 5px;
+		padding-bottom : 5px;
+}
+
+.payment {
+        font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        color: #000000;
+        font-weight: normal;
+}
+
+
+
+.listproduct {
+        font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        color: #000000;
+        font-weight: normal;
+		border : 1px #767575;
+		border-style : none none solid none;
+		padding-left : 2px;
+		padding-top : 15px;
+		padding-bottom : 5px;
+		padding-right : 2px;
+}
+
+.listspecialitem {
+        font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        color: #000000;
+        font-weight: normal;
+		padding-left : 2px;
+		padding-top : 5px;
+		padding-bottom : 5px;
+		padding-right : 2px;
+}
+
+.listtophead {
+        font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        color: #FFFFFF;
+        font-weight: bold;
+		background-color: #767575;
+}
+
+.listtopmain {
+        font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        color: #000000;
+        font-weight: normal;
+		border : 3px #767575;
+		border-style : none solid solid solid;
+		padding-left : 2px;
+		padding-top : 5px;
+		padding-bottom : 5px;
+		padding-right : 2px;
+}
+
+.stepitem {
+        font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+        font-size: 9px;
+        color: #525252;
+        font-weight: normal;
+		padding-top : 0px;
+		padding-bottom : 5px;
+		padding-right : 5px;
+}
+
+.stepitemhigh {
+        font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+        font-size: 9px;
+        color: #A00000;
+        font-weight: normal;
+		padding-left : 5px;
+		padding-top : 0px;
+		padding-bottom : 5px;
+		padding-right : 5px;
+}
+
+.stepnext {
+        font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        color: #A00000;
+        font-weight: bold;
+}
+
+.ordernow {
+        font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+        font-size: 11px;
+        color: #A00000;
+        font-weight: bold;
+}
+
+.order {
+        font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        color: #000000;
+        font-weight: normal;
+}
+
+.orderleft {
+        font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        color: #000000;
+        font-weight: normal;
+		border : 1px #494949;
+		border-style : none none none solid;
+}
+
+.orderright {
+        font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        color: #000000;
+        font-weight: normal;
+		border : 1px #494949; 
+		border-style : none solid none none;
+}
+
+.orderhighlight {
+        font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        color: #8D0101;
+        font-weight: bold;
+}
+
+.userlogincontent {
+        font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+        font-size: 9px;
+        color: #000000;
+        font-weight: bold;
+}

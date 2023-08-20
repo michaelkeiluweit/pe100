@@ -1,0 +1,6 @@
+Bitte laden Sie das komplette Shop Verzeichnis auf Ihren Webserver,
+und starten dann das Setup Skript im Ordner "Setup".
+
+Viel Erfolg wuenscht Ihnen Ihr
+
+nfq esales Team

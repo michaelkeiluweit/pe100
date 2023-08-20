@@ -1,0 +1,63 @@
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=ISO-8859-1">
+<TITLE>AddFont</TITLE>
+<LINK TYPE="text/css" REL="stylesheet" HREF="../fpdf.css">
+</HEAD>
+<BODY>
+<H2>AddFont</H2>
+<TT>AddFont(<B>string</B> family [, <B>string</B> style [, <B>string</B> file]])</TT>
+<H4>Version</H4>
+1.5
+<H4>Beschreibung</H4>
+Importiert eine TrueType- oder Type1-Schrift und stellt sie zur Verf&uuml;gung. Es ist notwendig, mit
+makefont.php zuvor eine Schriftendefinitions-Datei zu erstellen.
+<BR>
+Die Definitionsdatei (und w&auml;hrend des Einbettens die Schrift selbst) muss entweder im
+aktuellen oder dem durch <TT>FPDF_FONTPATH</TT> bestimmten Verzeichnis vorhanden sein.
+Werden die Dateien nicht gefunden, wird die Fehlermeldung "Could not include font
+definition file" erzeugt.
+<H4>Parameter</H4>
+<TT><U>family</U></TT>
+<BLOCKQUOTE>
+Die Schriftenfamilie. Der Name kann willk&uuml;rlich gew&auml;hlt werden.
+</BLOCKQUOTE>
+<TT><U>style</U></TT>
+<BLOCKQUOTE>
+Der Schriftstil. M&ouml;gliche Werte (Gro&szlig;-/Kleinschreibung wird nicht beachtet):
+<UL>
+<LI>leere Zeichenfolge: normal
+<LI><TT>B</TT>: fett
+<LI><TT>I</TT>: kursiv
+<LI><TT>BI</TT> oder <TT>IB</TT>: fett, kursiv
+</UL>
+Die Standardeinstellung verwendet den Schriftstil 'normal'.
+</BLOCKQUOTE>
+<TT><U>file</U></TT>
+<BLOCKQUOTE>
+Die Schriftendefinitionsdatei.
+<BR>
+Bei fehlender Angabe wird der Dateiname aus dem Namen der Schriftenfamilie und dem
+Schriftstil gebildet (in Kleinbuchstaben und ohne Leerzeichen).
+</BLOCKQUOTE>
+<H4>Beispiel</H4>
+<TABLE WIDTH="100%" BGCOLOR="#E0E0E0"><TR><TD>
+<TT>
+$pdf-&gt;AddFont('Comic','I');
+</TT>
+</TD></TR></TABLE><BR>
+ist Equivalent zu:
+<BR>
+<BR>
+<TABLE WIDTH="100%" BGCOLOR="#E0E0E0"><TR><TD>
+<TT>
+$pdf-&gt;AddFont('Comic','I','comici.php');
+</TT>
+</TD></TR></TABLE><BR>
+<H4>Siehe auch</H4>
+<A HREF="setfont.htm">SetFont()</A>.
+<H6></H6>
+<HR>
+<DIV ALIGN="CENTER"><A HREF="index.htm">Index</A></DIV>
+</BODY>
+</HTML>
