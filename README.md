@@ -25,7 +25,7 @@ The shop itself is preinstalled. See the screenshots for an impression how the s
 
 ## Install
 ```bash
-docker build --tag=pe100php . --progress=plain --no-cache
+docker build --tag=pe100php .
 docker-compose up -d
 ```
 The shop is now callable by `http://localhost/`
