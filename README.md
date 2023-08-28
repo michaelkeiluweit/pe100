@@ -12,6 +12,10 @@ See `app/_compatible_layer_patch.php` for further information.
 Some changes had to be done direcly in the code. Those changes are marked with the comment
 ``// MK``.
 
+The shop itself is preinstalled. See the screenshots for an impression how the setup wizard has looked like.
+![Setup wizard. Step 0.](setup_step_0.png?raw=true "Setup wizard. Step 0.")
+![Setup wizard. Step 1.](setup_step_1.png?raw=true "Setup wizard. Step 1.")
+
 ## Install
 ```bash
 docker build --tag=pe100php . --progress=plain --no-cache
