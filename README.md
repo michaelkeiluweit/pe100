@@ -12,9 +12,16 @@ See `app/_compatible_layer_patch.php` for further information.
 Some changes had to be done direcly in the code. Those changes are marked with the comment
 ``// MK``.
 
+### Specials
+- The setup wizard didn't overwrite the file config.inc.php. You had to.  
+  Remember the old game Larry where you actually had to give correct answers to its questions before it allowed you to play it? Pepperidge Farm Remembers.
+- The library adodb was used, later it was replaced by the adodblite to save 500 kb!
+- The version 2.5.0 of Smarty was used. The OXID eShop 6.5.3 uses Smarty 2.6.33. Let's talk stable technology! 
+
+### Screenshots 
 The shop itself is preinstalled. See the screenshots for an impression how the setup wizard has looked like.
-![Setup wizard. Step 0.](setup_step_0.png?raw=true "Setup wizard. Step 0.")
-![Setup wizard. Step 1.](setup_step_1.png?raw=true "Setup wizard. Step 1.")
+![Setup wizard. Step 0.](assets/setup_step_0.png?raw=true "Setup wizard. Step 0.")
+![Setup wizard. Step 1.](assets/setup_step_1.png?raw=true "Setup wizard. Step 1.")
 
 ## Install
 ```bash
@@ -26,11 +33,22 @@ The shop is now callable by `http://localhost/`
 Please note: Currently no mail server is installed. Doing a checkout leads to a SMTP error.
 
 ## Credentials
-Since the demo mode is activate by default (see `config.inc.php::$blDemoMode`), the admin credentials are:
+Since the demo mode is active by default (see `config.inc.php::$blDemoMode`), the admin credentials are:
 ```
 username: admin
 password: admin
 ```
+
+
+## Debug
+This image comes with a working Xdebug installation. Configure your IDE like the following examples.
+
+### Webserver
+![Debug webserver.](assets/debug_webserver.png?raw=true "Debug webserver.")
+
+### Shell
+![Debug shell.](assets/debug_shell.png?raw=true "Debug shell.")
+
 
 
 ## Troubeshooting
