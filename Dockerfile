@@ -1,14 +1,9 @@
 FROM php:7.1-apache
 
-
 # Sets the document root director for the webserver to 'html/'
 ENV APACHE_DOCUMENT_ROOT=/var/www/html/
 RUN sed -ri -e 's!/var/www/html!${APACHE_DOCUMENT_ROOT}!g' /etc/apache2/sites-available/*.conf
 RUN sed -ri -e 's!/var/www/!${APACHE_DOCUMENT_ROOT}!g' /etc/apache2/apache2.conf /etc/apache2/conf-available/*.conf
-
-
-
-#
 
 # install dependencies and cleanup (needs to be one step, as else it will cache in the laver)
 RUN apt-get update -y && \
@@ -37,4 +32,4 @@ RUN touch /usr/local/etc/php/conf.d/php.ini && \
     echo "xdebug.remote_host = host.docker.internal" >> /usr/local/etc/php/conf.d/php.ini && \
     echo "xdebug.remote_port = 9000" >> /usr/local/etc/php/conf.d/php.ini && \
     echo "xdebug.remote_mode = req" >> /usr/local/etc/php/conf.d/php.ini && \
-    echo "xdebug.idekey="PHPSTORM"" >> /usr/local/etc/php/conf.d/php.ini
+    echo "xdebug.idekey="PHPSTORM" >> /usr/local/etc/php/conf.d/php.ini
