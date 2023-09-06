@@ -32,4 +32,4 @@ RUN touch /usr/local/etc/php/conf.d/php.ini && \
     echo "xdebug.remote_host = host.docker.internal" >> /usr/local/etc/php/conf.d/php.ini && \
     echo "xdebug.remote_port = 9000" >> /usr/local/etc/php/conf.d/php.ini && \
     echo "xdebug.remote_mode = req" >> /usr/local/etc/php/conf.d/php.ini && \
-    echo "xdebug.idekey="PHPSTORM" >> /usr/local/etc/php/conf.d/php.ini
+    echo "xdebug.idekey = PHPSTORM" >> /usr/local/etc/php/conf.d/php.ini
