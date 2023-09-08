@@ -3,14 +3,17 @@
 
 This projects target is to revive the very first stable version of the OXID eShop.
 
-To achieve that, the source code had to be edited on some parts to get most of the shop working.  
+### Good to know
+The source code had to be edited on some parts to get most of the shop working. Those changes are marked with the comment
+`// MK`.  
 
 Since the library mysql_* isn't available, but was replaced by the library mysqli_, a 
 compatibility layer was created to define the methods mysql_* with mysqli* under the hood.
 See `app/_compatible_layer_patch.php` for further information.  
 
-Some changes had to be done direcly in the code. Those changes are marked with the comment
-``// MK``.
+To execute the setup wizard, remove temporarily the line `chdir(__DIR__);` in https://github.com/michaelkeiluweit/pe100/blob/main/app/_compatible_layer_patch.php#L11C1-L11C16.
+
+Do not switch the language. Some files are missing and the language will be stored in the session. You will get a white page telling you that something is missing. 
 
 ### Specials
 - The setup wizard didn't overwrite the file config.inc.php. You had to.  
@@ -42,7 +45,6 @@ Since the demo mode is active by default (see `config.inc.php::$blDemoMode`), th
 username: admin
 password: admin
 ```
-
 
 ## Debug
 This image comes with a working Xdebug installation. Configure your IDE like the following examples.
