@@ -26,7 +26,7 @@ The shop itself is preinstalled. See the screenshots for an impression how the s
 ![Setup wizard. Step 3.](assets/setup_3.png?raw=true "Setup wizard. Step 3.")
 Shop is not working? It can't connect to the database? Let's see again setup step 3.
 ![Setup wizard. Step 3.1.](assets/setup_31.png?raw=true "Setup wizard. Step 3.1.")
-Wait, there is more on this page!
+There was more information hidden on that page!
 ## Install
 ```bash
 docker build --tag=pe100php .
