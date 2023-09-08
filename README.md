@@ -20,9 +20,13 @@ Some changes had to be done direcly in the code. Those changes are marked with t
 
 ### Screenshots 
 The shop itself is preinstalled. See the screenshots for an impression how the setup wizard has looked like.
-![Setup wizard. Step 0.](assets/setup_step_0.png?raw=true "Setup wizard. Step 0.")
-![Setup wizard. Step 1.](assets/setup_step_1.png?raw=true "Setup wizard. Step 1.")
-
+![Setup wizard. Step 0.](assets/setup_0.png?raw=true "Setup wizard. Step 0.")
+![Setup wizard. Step 1.](assets/setup_1.png?raw=true "Setup wizard. Step 1.")
+![Setup wizard. Step 2.](assets/setup_2.png?raw=true "Setup wizard. Step 2.")
+![Setup wizard. Step 3.](assets/setup_3.png?raw=true "Setup wizard. Step 3.")
+Shop is not working? It can't connect to the database? Let's see again setup step 3.
+![Setup wizard. Step 3.1.](assets/setup_31.png?raw=true "Setup wizard. Step 3.1.")
+Wait, there is more on this page!
 ## Install
 ```bash
 docker build --tag=pe100php .
